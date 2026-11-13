@@ -28,7 +28,7 @@ nvim
 ### macOS & Linux
 
 ```bash
-git clone https://codeberg.org/thijsrijkers/neovim.git ~/.config/nvim
+git clone https://github.com/thijsrijkers/neovim.git ~/.config/nvim
 nvim
 ```
 
