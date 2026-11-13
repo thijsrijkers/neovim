@@ -1,4 +1,4 @@
-# Juno
+# My nvim config
 
 My personal Neovim configuration with theme, fuzzy file search, and live grep, managed by [lazy.nvim](https://github.com/folke/lazy.nvim).
 
@@ -21,14 +21,14 @@ go install golang.org/x/tools/gopls@latest
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/thijsrijkers/juno $env:LOCALAPPDATA\nvim
+git clone https://github.com/thijsrijkers/ $env:LOCALAPPDATA\nvim
 nvim
 ```
 
 ### macOS & Linux
 
 ```bash
-git clone https://github.com/thijsrijkers/juno ~/.config/nvim
+git clone https://codeberg.org/thijsrijkers/neovim.git ~/.config/nvim
 nvim
 ```
 

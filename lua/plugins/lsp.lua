@@ -22,6 +22,7 @@ return {
           "gopls",
           "ts_ls",
           "rust_analyzer",
+          "zls",
         },
         automatic_installation = true,
       })
@@ -98,6 +99,9 @@ return {
         },
       })
       vim.lsp.enable("rust_analyzer")
+
+      vim.lsp.config("zls", { on_attach = on_attach, capabilities = capabilities })
+      vim.lsp.enable("zls")
     end,
   },
 }
